@@ -1,3 +1,7 @@
+package operate;
+/*
+* 运算父类
+* */
 public class Operation {
   private double num1;
   private double num2;
@@ -18,7 +22,7 @@ public class Operation {
         this.num2 = num2;
     }
 
-    public double GetResult(){
+    public double GetResult() throws Exception {
         double result=0;
         return result;
     }
